@@ -23,6 +23,10 @@ segmenting complex features like roads and buildings, a task where the U-Net mod
 ![Sample results](./Sample_Results_2.png)
 
 ## Dataset 
+We utilized the LandCoverAI dataset from the torchgeo library, which comprises 41 images and corresponding
+masks, each with a resolution of 9000x9000 pixels across five classes. Due to hardware constraints, these images were
+resized to 512x512 pixels, and further divided into patches of 128x128 pixels. A total of 600 patches were then split
+into training, validation, and test sets. 
 Dataset can be downloaded and converted to desired format using dataset_download.py file. It also contains 
 the necessary functions and code to convert the images to size of 512x512 and then, split it into patches of 
 128x128. The patched images will be saved into the same directory.
