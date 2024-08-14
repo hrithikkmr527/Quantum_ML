@@ -20,7 +20,7 @@ demonstrated a notable improvement with an accuracy of 53.26%, outperforming the
 by 8%. Despite their faster convergence rates, the quantum models faced challenges in accurately
 segmenting complex features like roads and buildings, a task where the U-Net model excelled.
 
-![Sample results](URL_or_path_to_image)
+![Sample results](./Sample_Results_2.png)
 
 ## Dataset 
 Dataset can be downloaded and converted to desired format using dataset_download.py file. It also contains 
